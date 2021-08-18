@@ -1,0 +1,24 @@
+a{
+	color: white;
+}
+.menu{
+	float: left;
+	list-style-type: none;
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+	width: 29.5%;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	border: 1px solid white;
+}
+li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+	
+	text-decoration: none;
+}
+li:last-child{
+	border-bottom: none;
