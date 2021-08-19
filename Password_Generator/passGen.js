@@ -7,7 +7,7 @@ function generate(length)
 {
 	let password = "";
 
-	const symbols = ['!','@','#','$','£','%','^','&','*','(',')','-','_','=','+','{','}','[',']','|',';',':',',','.','<','>','/','?'];
+	const symbols = ['!','@','#','$','£','%','^','&','*','(',')','-','_','=','+','{','}','[',']','|',';',':',',','.','/','?'];
 	
 	const numbers = [];
 	for(let i=48 ; i<58 ; i++)
@@ -45,8 +45,8 @@ function generate(length)
 }
 function display()
 {
-	var val=document.getElementById("in").value;
-	var pass;
+	let val=document.getElementById("in").value;
+	let pass;
 	if(val>=15)
 	{
 		pass=generate(parseInt(val))
